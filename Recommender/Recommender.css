@@ -1,0 +1,110 @@
+main img {
+	margin-top: 10px;
+}
+
+.subtitle {
+	text-align: center;
+	font-size: 15pt;
+	margin-top: 2px;
+}
+
+.main-text {
+	width: 65%;
+	margin: auto;
+}
+
+.main-text h2 {
+	font-family: 'Eczar', serif;
+	font-weight: 700;
+	font-size: 20pt;
+	margin-left: -20px;
+	margin-top: 30px;
+}
+
+.center-text {
+	text-align: center;
+	font-size: 15pt;
+	margin-top: 5px;
+}
+
+h1 {
+	font-size: 30pt;
+	color: #FCFAFD;
+	margin: auto;
+	margin-top: -55px;
+	font-weight: 400;
+	background-color: #111;
+	max-width: 94%;
+	opacity: .85;
+}
+
+.wire {
+	display: inline;
+	width: 46%;
+	padding-right: 4%;
+	margin-bottom: 20px;
+}
+
+#collab {
+	font-style: italic;
+}
+
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+	
+	.header-img {
+		margin-top: 8px;
+	}
+	
+	main img {
+		margin-top: 0;
+	}
+	
+	h1 {
+		font-size: 16pt;
+		margin-top: -20px;
+		opacity: .9;
+		
+	}
+	
+	.subtitle {
+	font-size: 13pt;
+	margin: auto;
+	margin-top: 2px;
+	width: 85%;
+	
+	}
+	
+	.main-text {
+	width: 85%;
+	margin: auto;
+	}
+	
+	.main-text h2 {
+		font-size: 16pt;
+		margin-left: -10px;
+		margin-top: 10px;
+	}
+	
+	.wire {
+		width: 85%;
+	}
+	
+}
+
+/* Medium and up */
+@media screen and (min-width: 40em) {
+	
+}
+
+/* Medium only */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {}
+
+/* Large and up */
+@media screen and (min-width: 64em) {
+	
+	
+}
+
+/* Large only */
+@media screen and (min-width: 64em) and (max-width: 74.9375em) {}

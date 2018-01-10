@@ -1,0 +1,49 @@
+main h2 {
+	font-size: 18pt;
+}
+
+
+#tagline-container {
+	width: 400px;
+	margin: auto;
+	padding-left: 200px;
+}
+
+main {
+	
+}
+
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+	h1 {
+		margin-top: 10px;
+		font-size: 20pt;
+	}
+	
+	main h2 {
+		text-align: center;
+		font-size: 13pt;
+		margin-top: 0px;
+	}
+
+	#tagline-container {
+		padding-left: 0;
+		width: 75%;
+	}
+}
+
+/* Medium and up */
+@media screen and (min-width: 40em) {
+	h1 {
+		margin-top: 35px;
+	}
+}
+
+/* Medium only */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {}
+
+/* Large and up */
+@media screen and (min-width: 64em) {}
+
+/* Large only */
+@media screen and (min-width: 64em) and (max-width: 74.9375em) {}
