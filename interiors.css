@@ -1,0 +1,223 @@
+html, body {
+  overflow-x: hidden;
+}
+
+/*   TYPOGRAPHY   */
+
+.title {
+  font-weight: 700;
+  font-size: 16pt;
+  margin: auto;
+  border-bottom: 1px solid black;
+  text-align: center;
+  width: 64%;
+}
+
+.subtitle {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 11pt;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  font-weight: 300;
+  margin-bottom: 4.4rem;
+}
+
+
+.summary-p {
+  margin-bottom: 3rem;
+}
+
+
+h4 {
+  color: #007F87;
+  font-size: 10pt; 
+  font-weight: 600;
+  margin: 1.7rem 0 .2rem 0;
+  letter-spacing: .08rem;
+}
+
+.sidebar-no-margintop {
+  margin-top: 0;
+}
+
+.sidebar-p {
+  font-size: 11pt;
+  margin: 0;
+  line-height: 140%;
+}
+
+.sidebar-img {
+  max-width: 8rem;
+  display: block;
+  margin: .5rem 0;
+}
+
+
+.caption {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+  margin-top: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.row {
+  
+}
+
+/* MAIN */
+
+main {
+  width: 78%;
+  margin: auto;
+}
+
+main p {
+    font-size: 13pt;
+    color: #4C4C4C;
+}
+  
+main h2 {
+  font-family: 'Spectral', serif;
+  font-weight: 700;
+}
+
+.main-section {
+  border top: 1px solid black;
+}
+
+
+.banner-img {
+  width: 94%;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: .3rem;
+  margin-bottom: 3.3rem;
+}
+
+main .h-rule {
+  width: 100%;
+  padding-top: 1rem 0px;
+  margin-top: 1.6rem;
+
+}
+
+section h3 {
+  margin-top: 2.5rem;
+}
+
+section h4 {
+  margin-top: 0;
+}
+
+
+section p {
+  margin-bottom: 2rem;
+}
+
+section ul, li {
+  list-style: circle;
+}
+
+.sidenote {
+
+  margin: 0 -9999rem;
+  /* add back negative margin value */
+  padding: 0.25rem 9999rem;
+  background-color: #007F87;
+  color: #FCFAFD;
+}
+
+.sidenote p{
+  color: #FCFAFD;
+}
+
+.sidenote h4 {
+  color: #FCFAFD;
+}
+
+.sidenote h4 {
+  margin-top: 2rem;
+}
+
+.pull-quote {
+  font-weight: 700;
+  font-size: 19pt;
+  color: #007F87;
+}
+
+
+
+
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+	
+
+}
+
+/* Medium and up */
+@media screen and (min-width: 40em) {
+  .title { 
+    font-size: 24pt;
+    width: 50%;
+    text-align: center;
+  }
+  
+  .subtitle {
+    font-size: 17pt;
+    text-align: center;
+    margin-top: .4rem;
+  }
+
+  h3 {
+    font-size: 19pt;
+  }
+  
+  main h2 {
+    font-size: 22pt;
+    margin-bottom: 1rem;
+  }
+  
+  section h3 {
+    margin-top: 3.5rem;
+    margin-bottom: 1rem;
+  } 
+  
+
+  .caption {
+    font-size: 13pt;
+  }
+  
+  .columns {
+    padding-left: 0;
+    padding-right: 0;
+  }
+ 
+  .twitch-pad {
+    padding-right: 6%;
+    margin-top: .5rem;
+  }
+  
+  .left-image {
+    margin-top: 3.5rem;
+  }
+  
+}
+
+/* Medium only */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {}
+
+/* Large and up */
+@media screen and (min-width: 64em) {
+  .title { 
+    font-size: 27pt;
+    width: 30%;
+  }
+  
+  
+}
+
+/* Large only */
+@media screen and (min-width: 64em) and (max-width: 74.9375em) {}

@@ -1,19 +1,88 @@
 main h2 {
-	font-size: 18pt;
+	font-size: 46pt;
 }
 
 
 #tagline-container {
-    width: 75%;
-	margin: auto;
-    text-align: left;
-    margin-top: 1rem;
-    line-height: .3;
-    display: block;
+    max-width: 56%;
+    margin: auto;
+    margin-top: 3rem;
+    line-height: 310%;
+    margin-bottom: 3rem;
 }
 
-main {
-	
+#tagline-container h2 {
+    line-height: 175%;
+}
+
+.portfolio-row {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.portfolio-square {
+  padding: 0;
+  flex-basis: 25rem;
+  align-self: stretch;
+  margin-left: 4%;
+  margin-right: 4%;
+  box-shadow: 1px 4px 4px 0px #7F7F7F;
+  margin-bottom: 5rem;
+}
+
+.portfolio-square img {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.row {
+  max-width: none;
+}
+
+h3 {
+  font-size: 20pt;
+  font-weight: 700;
+  margin-left: 2rem;
+  margin-top: 1.4rem;
+  margin-bottom: .2rem;
+}
+
+h4 {
+  font-size: 10pt;
+  font-family: 'Source Sans Pro', sans-serif;
+  letter-spacing: .06rem;
+  font-weight: 400;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 0rem;
+}
+
+.portfolio-square p {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: .8rem;
+/*  font-weight: 300;*/
+  font-size: 13pt;
+  line-height: 1.5rem;
+}
+
+#about {
+  width: 78%;
+  margin: 5rem auto;
+}
+
+#about img {
+  padding: 0;
+}
+
+#about p {
+  font-size: 14pt;
+  margin-bottom: 1.2rem;
 }
 
 /* Small only */
@@ -29,6 +98,7 @@ main {
 	#tagline-container {
 		padding-left: 0;
 		width: 75%;
+        line-height: 100%;
 	}
 
 }
@@ -45,14 +115,14 @@ main {
   }
   
   #tagline-container h2{
-      font-size: 1.25rem;
+      font-size: 1.5rem;
   }
   
-    img {
-    width: 25%;
-    text-align: auto;
-    display: inline-block;
-    padding-top: 1rem;
+  img {
+      width: 25%;
+      text-align: auto;
+      display: inline-block;
+      padding-top: 1rem;
   }
   
 }

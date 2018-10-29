@@ -1,0 +1,17 @@
+#vid {
+  width: 100%;
+  margin: auto;
+  margin-bottom: 3rem;
+}
+
+.center-h4 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+  #vid {
+    width:100%;
+  }
+}

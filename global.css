@@ -10,7 +10,7 @@ body {
 }
 
 h1, footer h2, .studies h2, h3 {
-	font-family: 'Eczar', serif;
+	font-family: 'Spectral', serif;
 }
 
 h2, p, a {
@@ -62,7 +62,7 @@ header ul {
 
 #name-logo {
     font-family: 'Source Sans Pro', sans-serif;
-    font-weight: bold;
+    font-weight: 600;
     display: inline-block;
     font-size: 1.6rem;
     color: #007F87;
@@ -165,18 +165,6 @@ footer p {
 		padding-right: 4%;
 	}
 	
-	.case-title {
-		font-size: 14pt;
-	}
-	
-	.case {
-		margin-top: 15px;
-		background-color: white;
-	}
-	
-	.case p{
-		font-size: 11pt;
-	}
 	
 	.contact-block {
       text-align: center;
@@ -199,11 +187,7 @@ footer p {
         display: inline-block;
 	}
 
-	main img {
-		max-width: 94%;
-		display: block;
-		margin: auto;
-	}
+
   
   #name-logo {
     float: left;
@@ -222,9 +206,7 @@ footer p {
 
 /* Large and up */
 @media screen and (min-width: 64em) {
-	.case-title {
-		font-size: 22pt;
-	}
+
 	
 	main ul {
 		width: 78%;
