@@ -59,14 +59,17 @@ header ul {
 	padding-top: 0px;
 	margin-top: 5px;
     margin-bottom: .5rem;
+    padding-bottom: 0;
 }
+
 
 #name-logo {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 600;
     display: inline-block;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     color: #007F87;
+
 }
 
 /** END HEADER **/
@@ -181,7 +184,13 @@ footer p {
 	header li {
 		padding-left: 0%;
 		padding-right: 8%;
+        line-height: 0;
 	}
+  
+    header li a {
+      padding: 0;
+      margin: 0;
+    }
 	
 	main ul {
 		margin: auto;
@@ -193,6 +202,7 @@ footer p {
   #name-logo {
     float: left;
     margin-left: 8%;
+    margin-top: -.6rem;
   }
 	
 }
