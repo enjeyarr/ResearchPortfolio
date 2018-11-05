@@ -4,15 +4,16 @@ main h2 {
 
 
 #tagline-container {
-    max-width: 56%;
+    max-width: 58%;
     margin: auto;
-    margin-top: 3rem;
-    line-height: 310%;
-    margin-bottom: 3rem;
+    margin-top: 2.3rem;
+    line-height: 270%;
+    margin-bottom: 2.3rem;
 }
 
 #tagline-container h2 {
     line-height: 175%;
+
 }
 
 .portfolio-row {
@@ -69,6 +70,7 @@ h4 {
 /*  font-weight: 300;*/
   font-size: 13pt;
   line-height: 1.5rem;
+  padding-bottom: .25rem;
 }
 
 #about {
@@ -78,6 +80,7 @@ h4 {
 
 #about img {
   padding: 0;
+  margin-bottom: 2.4rem;
 }
 
 #about p {
@@ -108,7 +111,6 @@ h4 {
   #tagline-container {
     width: 98%;
     padding: 5rem 0;
-    font-size: 20pt;
   }
   
   main section {
@@ -116,7 +118,7 @@ h4 {
   }
   
   #tagline-container h2{
-      font-size: 1.5rem;
+      font-size: 1.67rem;
   }
   
   img {

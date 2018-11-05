@@ -152,8 +152,31 @@ footer p {
 .copyright {
 	margin-top: 8px;
 	padding-top: 4px;
+    font-size: 10pt;
+    color: #444;
+    font-family: 'Open Sans', sans-serif;
 }
 
+.footer-p {
+      font-size: 10pt;
+      color: #444;
+      font-family: 'Open Sans', sans-serif;
+  margin: 2px;
+}
+
+.footer-row {
+  text-align: center;
+  margin: 0 auto 2.2rem auto;
+
+}
+
+footer img {
+  width: 32px;
+ 
+  display: inline-block;
+  margin: 0 7px 0 7px;
+  text-align: center;
+}
 /** END FOOTER **/
 
 
@@ -183,7 +206,7 @@ footer p {
 	
 	header li {
 		padding-left: 0%;
-		padding-right: 8%;
+		padding-right: 6%;
         line-height: 0;
 	}
   
@@ -201,8 +224,8 @@ footer p {
   
   #name-logo {
     float: left;
-    margin-left: 8%;
-    margin-top: -.6rem;
+    margin-left: 6%;
+    margin-top: -.7rem;
   }
 	
 }
