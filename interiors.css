@@ -85,7 +85,7 @@ main ul {
 }
 
 main h2 {
-  font-family: 'Spectral', serif;
+  font-family: 'Source Sans Pro', serif;
   font-weight: 700;
 }
 
@@ -111,6 +111,7 @@ main .h-rule {
 
 section h3 {
   margin-top: 3rem;
+  font-weight: 600;
 }
 
 section h4 {

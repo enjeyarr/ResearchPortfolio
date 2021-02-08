@@ -45,16 +45,27 @@ main h2 {
   max-width: none;
 }
 
+.section-header {
+    max-width: 58%;
+    margin: auto;
+    margin-top: 2.3rem;
+    font-weight: 700;
+    color: #007F87;
+    padding-top: 4.6rem;
+    padding-bottom: 3rem;
+    margin: 0;
+}
+
 h3 {
   font-size: 20pt;
   font-weight: 700;
   margin-left: 2rem;
   margin-top: 1.4rem;
-  margin-bottom: .2rem;
+  margin-bottom: .3rem;
 }
 
 h4 {
-  font-size: 10pt;
+  font-size: 10.5pt;
   font-family: 'Source Sans Pro', sans-serif;
   letter-spacing: .06rem;
   font-weight: 400;
@@ -103,6 +114,12 @@ h4 {
 		width: 75%;
         line-height: 100%;
 	}
+    
+    .section-header {
+        font-size: 13pt;
+        padding: 0;
+        margin: auto;
+    }
 
 }
 
@@ -127,6 +144,12 @@ h4 {
       display: inline-block;
       padding-top: 1rem;
   }
+    
+    .section-header {
+        width: 98%;
+        font-size: 1.67rem;
+        margin: auto;
+    }
   
 }
 

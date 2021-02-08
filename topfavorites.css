@@ -1,0 +1,22 @@
+.screenshot img {
+    
+    max-height: 25rem;
+    margin: auto;
+    margin-bottom: .8rem;
+    margin-top: 1.7rem;
+}
+
+.subpoint {
+    
+    max-height: 14rem;
+    margin-bottom: .6rem;
+ 
+}
+
+.row {
+ max-width: inherit;
+}
+
+#final-design {
+    margin-bottom: 2rem;
+}

@@ -10,7 +10,7 @@ body {
 }
 
 h1, footer h2, .studies h2, h3 {
-	font-family: 'Spectral', serif;
+	font-family: 'Source Sans Pro', serif;
 }
 
 h2, p, a {
@@ -32,6 +32,10 @@ ul li {
 
 .highlight {
   color: #007F87;
+}
+
+.summary h3 {
+    font-weight: 600;
 }
 
 .underline {
@@ -60,16 +64,17 @@ header ul {
 	margin-top: 5px;
     margin-bottom: .5rem;
     padding-bottom: 0;
+    letter-spacing: .07rem;
+    font-weight: 600;
 }
 
 
 #name-logo {
     font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 600;
+    font-weight: 700;
     display: inline-block;
     font-size: 1.8rem;
     color: #007F87;
-
 }
 
 /** END HEADER **/
@@ -121,6 +126,12 @@ main li {
 	margin: auto;
 	margin-top: 30px;
 	max-width: 94%;
+}
+
+.coming-soon {
+    margin: 2.8rem;
+    text-align: center;
+   
 }
 
 /** END MAIN **/
